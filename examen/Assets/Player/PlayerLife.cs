@@ -14,7 +14,7 @@ public class PlayerLife : MonoBehaviour
             Destroy(collision.gameObject);
             if(life <= 0)
             {
-                Destroy(collision.gameObject);
+                Destroy(gameObject);
             }
         }
     }

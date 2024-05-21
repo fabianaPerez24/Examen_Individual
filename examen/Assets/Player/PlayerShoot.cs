@@ -6,6 +6,7 @@ public class PlayerShoot : MonoBehaviour
 {
 
     public GameObject bulletPrefab;
+    public GameObject bulletPrefab2;
     // Update is called once per frame
     void Update()
     {
@@ -18,6 +19,13 @@ public class PlayerShoot : MonoBehaviour
         {
             GameObject obj = Instantiate(bulletPrefab);
             obj.transform.position= transform.position;
+            obj.GetComponent<Bullet>().SetDirection(gameObject.transform.up);
+        }
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            GameObject obj = Instantiate(bulletPrefab2);
+            obj.transform.position = transform.position;
+            obj.GetComponent<Bullet>().SetDirection(gameObject.transform.up);
         }
     }
 }
