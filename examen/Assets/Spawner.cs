@@ -41,15 +41,7 @@ public class Spawner : MonoBehaviour
             collectionIndex = 1;
             enemies = enemyCollections[collectionIndex].Enemies;
         }
-        else if (totalTimer <= 30)
-        {
-            if (collectionIndex != 2)
-            {
-                index = 0;
-            }
-            collectionIndex = 2;
-            enemies = enemyCollections[collectionIndex].Enemies;
-        }
+        
         else { totalTimer = 0; }
     }
     void Spawn()

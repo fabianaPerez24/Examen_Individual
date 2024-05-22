@@ -10,7 +10,7 @@ public class EnemyBlackLife : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("BalaNegra"))
         {
-            Destroy(gameObject,3f);
+            Destroy(gameObject);
         }
     }
 }

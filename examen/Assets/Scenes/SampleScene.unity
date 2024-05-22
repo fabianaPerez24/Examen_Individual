@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 544516798}
   - component: {fileID: 544516799}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -532,8 +532,8 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_LookAt: {fileID: 544516796}
+  m_Follow: {fileID: 544516796}
   m_Lens:
     FieldOfView: 60.000004
     OrthographicSize: 5
@@ -561,8 +561,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637026950}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.07106886, y: 0.69384587, z: -0.069131926, w: -0.71326566}
-  m_LocalPosition: {x: 14.524643, y: 8.5594, z: -0.4332766}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.62, y: 2.31, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -749,8 +749,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.07106886, y: 0.69384587, z: -0.069131926, w: -0.71326566}
-  m_LocalPosition: {x: 14.524643, y: 8.5594, z: -0.4332766}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.62, y: 2.31, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -854,7 +854,7 @@ Transform:
   m_GameObject: {fileID: 1202955853}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.204848, y: 23.6, z: 2.5599308}
+  m_LocalPosition: {x: -0.8, y: 19.3, z: 2.41}
   m_LocalScale: {x: 1, y: 1, z: 2.2789}
   m_ConstrainProportionsScale: 0
   m_Children: []
